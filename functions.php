@@ -118,7 +118,7 @@ function parser_rewrite_args_filter( $args, $slug ) {
 			break;
 	}
 
-	return wp_parse_args( $args, $rewrites );
+	return array_merge( $args, $rewrites );
 }
 
 
