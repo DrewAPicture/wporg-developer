@@ -42,12 +42,83 @@ add_action( 'init', __NAMESPACE__ . '\\init' );
 
 
 function init() {
-	add_action( 'widgets_init', __NAMESPACE__ . '\\widgets_init' );
-	add_action( 'pre_get_posts', __NAMESPACE__ . '\\pre_get_posts' );
-	add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\\theme_scripts_styles' );
-	add_filter( 'post_type_link', __NAMESPACE__ . '\\method_permalink', 10, 2 );
+	add_filter( 'wp_parser_post_type_args', __NAMESPACE__ . '\\parser_rewrite_args_filter' );
+	add_filter( 'wp_parser_taxonomy_args',  __NAMESPACE__ . '\\parser_rewrite_args_filter' );
+
+	add_action( 'widgets_init',             __NAMESPACE__ . '\\widgets_init' );
+	add_action( 'pre_get_posts',            __NAMESPACE__ . '\\pre_get_posts' );
+	add_action( 'wp_enqueue_scripts',       __NAMESPACE__ . '\\theme_scripts_styles' );
+	add_filter( 'post_type_link',           __NAMESPACE__ . '\\method_permalink', 10, 2 );
+
 	add_theme_support( 'automatic-feed-links' );
 	add_theme_support( 'post-thumbnails' );
+}
+
+/**
+ * Filter rewrite arguments for WP-Parser post types and taxonomies.
+ *
+ * @param array  $args Rewrite arguments.
+ * @param string $slug Post type or taxonomy slug.
+ * @return array Filtered arguments.
+ */
+function parser_rewrite_args_filter( $args, $slug ) {
+	switch( $slug ) {
+		// Function post type.
+		case 'wp-parser-function':
+			$rewrites = array(
+				'has_archive' => 'reference/functions',
+				'rewrite'     => array(
+					'feeds'      => false,
+					'slug'       => 'reference/function',
+					'with_front' => false,
+				),
+			);
+			break;
+
+		// Class post type.
+		case 'wp-parser-class':
+			$rewrites = array(
+				'has_archive' => 'reference/classes',
+				'rewrite'     => array(
+					'feeds'      => false,
+					'slug'       => 'reference/class',
+					'with_front' => false,
+				),
+			);
+			break;
+
+		// Hook post type.
+		case 'wp-parser-hook':
+			$rewrites = array(
+				'has_archive' => 'reference/hooks',
+				'rewrite'     => array(
+					'feeds'      => false,
+					'slug'       => 'reference/hook',
+					'with_front' => false,
+				),
+			);
+
+		// Source File taxonomy.
+		case 'wp-parser-source-file':
+			$rewrites = array( 'rewrite' => array( 'slug' => 'reference/files' ) );
+			break;
+
+		// @package taxonomy.
+		case 'wp-parser-package':
+			$rewrites = array( 'rewrite' => array( 'slug' => 'reference/package' ) );
+			break;
+
+		// @since taxonomy.
+		case 'wp-parser-since':
+			$rewrites = array( 'rewrite' => array( 'slug' => 'reference/since' ) );
+			break;
+
+		default :
+			$rewrites = array();
+			break;
+	}
+
+	return wp_parse_args( $args, $rewrites );
 }
 
 
