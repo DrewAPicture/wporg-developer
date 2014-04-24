@@ -97,6 +97,7 @@ function parser_rewrite_args_filter( $args, $slug ) {
 					'with_front' => false,
 				),
 			);
+			break;
 
 		// Source File taxonomy.
 		case 'wp-parser-source-file':
