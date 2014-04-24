@@ -42,8 +42,8 @@ add_action( 'init', __NAMESPACE__ . '\\init' );
 
 
 function init() {
-	add_filter( 'wp_parser_post_type_args', __NAMESPACE__ . '\\parser_rewrite_args_filter' );
-	add_filter( 'wp_parser_taxonomy_args',  __NAMESPACE__ . '\\parser_rewrite_args_filter' );
+	add_filter( 'wp_parser_post_type_args', __NAMESPACE__ . '\\parser_rewrite_args_filter', 10, 2 );
+	add_filter( 'wp_parser_taxonomy_args',  __NAMESPACE__ . '\\parser_rewrite_args_filter', 10, 2 );
 
 	add_action( 'widgets_init',             __NAMESPACE__ . '\\widgets_init' );
 	add_action( 'pre_get_posts',            __NAMESPACE__ . '\\pre_get_posts' );
