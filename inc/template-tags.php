@@ -417,7 +417,9 @@ namespace DevHub {
 
 			$delimiter = false !== strpos( $signature, '$' ) ? '"' : "'";
 			$signature = $delimiter . $signature . $delimiter;
-			$signature = '<span class="hook-func">' . $hook_type . '</span> ( ' . $signature;
+
+			$hook_type = '<span class="hook-func">' . $hook_type . '</span> ( ';
+			$signature = $hook_type . '<nobr><span class="hook-tag">' . $signature . '</span></nobr>';
 			if ( $hook_args ) {
 				$signature .= ', ';
 				$signature .= implode( ', ', $hook_args );

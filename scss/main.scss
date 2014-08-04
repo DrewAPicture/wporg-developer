@@ -832,34 +832,31 @@
 	}
 	.wp-parser-class, .wp-parser-function, .wp-parser-hook, .wp-parser-method {
 		border-bottom: 1px solid #dfdfdf;
-		h1 {
+		h2 {
+			font-family: $serif-font;
 			margin: 24px 0;
-			padding-left: 100px;
-			a {
-				margin-left: -100px;
-				color: #24831d;
-				font-family: $code-font;
-				font-size: 20px;
-				.hook-func {
-					color: #888888;
-				}
-				.arg-type {
-					color: #cd2f23;
-				}
-				.arg-name {
-					color: #0f55c8;
-				}
-				.arg-default {
-					color: #000000;
-				}
-			}
 			a:hover {
 				border-bottom: 1px dotted #21759b;
 			}
 		}
-		h2 {
-			font-family: $serif-font;
-			margin-bottom: .5em;
+	    .signature {
+			font-family: $code-font;
+			font-size: 20px;
+			.hook-tag {
+				color: #24831d;
+			}
+			.hook-func {
+			    color: #888888;
+			}
+			.arg-type {
+			    color: #cd2f23;
+			}
+			.arg-name {
+			    color: #0f55c8;
+			}
+			.arg-default {
+			    color: #000000;
+			}
 		}
 		.parameters {
 			p {
