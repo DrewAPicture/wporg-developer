@@ -2,7 +2,11 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<h1><a href="<?php the_permalink() ?>"><?php echo get_signature(); ?></a></h1>
+	<?php if ( is_singular() ) : ?>
+		<h2 class="signature"><?php echo get_signature(); ?></h2>
+	<?php else : ?>
+		<h2 class="signature"><a href="<?php the_permalink() ?>"><?php echo get_signature(); ?></a></h2>
+	<?php endif; ?>
 
 	<section class="description">
 		<?php the_excerpt(); ?>
