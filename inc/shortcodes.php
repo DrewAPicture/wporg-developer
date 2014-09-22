@@ -247,13 +247,20 @@ class WPORG_Shortcodes {
 
 				$base_url = home_url( $path );
 
-				// Grab the URL to see if it's good.
-				$resp = wp_remote_get( esc_url( $base_url ) );
+				/*
+				 * @todo Probably rethink the most scalable method for verifying validity of these
+				 * items. Doing a remote request for every name attribute is almost as bad as running
+				 * a query for each of them. For now, just assume the slug exists :/
+				 */
+				return $base_url;
 
-				// If the URL is good, build the link markup.
-				if ( 200 == wp_remote_retrieve_response_code( $resp ) ) {
-					return $base_url;
-				}
+//				// Grab the URL to see if it's good.
+//				$resp = wp_remote_get( esc_url( $base_url ) );
+//
+//				// If the URL is good, build the link markup.
+//				if ( 200 == wp_remote_retrieve_response_code( $resp ) ) {
+//					return $base_url;
+//				}
 			}
 		}
 		return false;
