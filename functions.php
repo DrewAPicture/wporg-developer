@@ -27,6 +27,11 @@ require __DIR__ . '/inc/jetpack.php';
  */
 require_once( __DIR__ . '/inc/parsed-content.php' );
 
+/**
+ * Class for registering callout box shortcodes for use with the handbooks and Code Reference.
+ */
+require_once( __DIR__ . '/inc/callout-boxes.php' );
+
 if ( ! function_exists( 'loop_pagination' ) ) {
 	require __DIR__ . '/inc/loop-pagination.php';
 }

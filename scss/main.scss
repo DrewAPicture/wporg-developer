@@ -287,6 +287,39 @@
 		margin: 0 0 1.5em;
 	}
 
+	.callout {
+		padding: 15px 40px 15px 40px;
+		margin-bottom: 1.5em;
+
+		p {
+			margin-bottom: 0;
+		}
+	}
+
+	.callout-info {
+		background: $info-color;
+		border: 1px solid darken( $info-color, 10% );
+		border-bottom: 3px solid darken( $info-color, 15% );
+	}
+
+	.callout-tip {
+		background: $tip-color;
+		border: 1px solid darken( $tip-color, 10% );
+		border-bottom: 3px solid darken( $tip-color, 20% );
+	}
+
+	.callout-alert {
+		background: $alert-color;
+		border: 1px solid darken( $alert-color, 10% );
+		border-bottom: 3px solid darken( $alert-color, 30% );
+	}
+
+	.callout-warning {
+		background: $warning-color;
+		border: 1px solid darken( $warning-color, 10% );
+		border-bottom: 3px solid darken( $warning-color, 10% );
+	}
+
 	/* =Media
 	----------------------------------------------- */
 
