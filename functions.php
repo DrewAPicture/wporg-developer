@@ -27,6 +27,11 @@ require __DIR__ . '/inc/jetpack.php';
  */
 require_once( __DIR__ . '/inc/parsed-content.php' );
 
+/**
+ * Register 'quick-reference' shortcodes.
+ */
+require_once( __DIR__ . '/inc/shortcodes.php' );
+
 if ( ! function_exists( 'loop_pagination' ) ) {
 	require __DIR__ . '/inc/loop-pagination.php';
 }
