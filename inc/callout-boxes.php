@@ -71,19 +71,6 @@ class WPORG_Callout_Boxes {
 	}
 
 	/**
-	 * Output callback for the `[warning]` shortcode.
-	 *
-	 * @access public
-	 *
-	 * @param array  $atts    Shortcode attributes.
-	 * @param string $content Shortcode content.
-	 * @return string Shortcode output as HTML markup.
-	 */
-	public function warning_shortcode( $atts, $content = '' ) {
-		return $this->build_callout_output( $content, 'alert' );
-	}
-
-	/**
 	 * Output callback for the `[alert]` shortcode.
 	 *
 	 * @access public
@@ -93,6 +80,19 @@ class WPORG_Callout_Boxes {
 	 * @return string Shortcode output as HTML markup.
 	 */
 	public function alert_shortcode( $atts, $content = '' ) {
+		return $this->build_callout_output( $content, 'alert' );
+	}
+
+	/**
+	 * Output callback for the `[warning]` shortcode.
+	 *
+	 * @access public
+	 *
+	 * @param array  $atts    Shortcode attributes.
+	 * @param string $content Shortcode content.
+	 * @return string Shortcode output as HTML markup.
+	 */
+	public function warning_shortcode( $atts, $content = '' ) {
 		return $this->build_callout_output( $content, 'warning' );
 	}
 
