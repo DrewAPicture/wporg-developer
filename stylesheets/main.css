@@ -1,6 +1,5 @@
 /* =Reset
 -------------------------------------------------------------- */
-/* line 11, ../scss/reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,7 +19,6 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   vertical-align: baseline;
 }
 
-/* line 22, ../scss/reset.scss */
 html {
   font-size: 62.5%;
   /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
@@ -32,12 +30,10 @@ html {
   /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
 }
 
-/* line 29, ../scss/reset.scss */
 body {
   background: #fff;
 }
 
-/* line 41, ../scss/reset.scss */
 article,
 aside,
 details,
@@ -51,42 +47,34 @@ section {
   display: block;
 }
 
-/* line 44, ../scss/reset.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 47, ../scss/reset.scss */
 table {
   /* tables still need 'cellspacing="0"' in the markup */
   border-collapse: separate;
   border-spacing: 0;
 }
 
-/* line 51, ../scss/reset.scss */
 caption, th, td {
   font-weight: normal;
   text-align: left;
 }
 
-/* line 55, ../scss/reset.scss */
 blockquote, q {
   quotes: "" "";
 }
-/* line 57, ../scss/reset.scss */
 blockquote:before, blockquote:after, q:before, q:after {
   content: "";
 }
 
-/* line 62, ../scss/reset.scss */
 a:focus {
   outline: thin dotted;
 }
-/* line 65, ../scss/reset.scss */
 a:hover, a:active {
   outline: 0;
 }
-/* line 68, ../scss/reset.scss */
 a img {
   border: 0;
 }
@@ -94,7 +82,6 @@ a img {
 /* =Global
 ----------------------------------------------- */
 /* Callout box colors */
-/* line 18, ../scss/global.scss */
 body,
 button,
 input,
@@ -108,14 +95,12 @@ textarea {
 }
 
 /* Headings */
-/* line 27, ../scss/global.scss */
 h1, h2, h3, h4, h5, h6 {
   clear: both;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
 }
 
-/* line 32, ../scss/global.scss */
 hr {
   background-color: #dfdfdf;
   border: 0;
@@ -124,64 +109,52 @@ hr {
 }
 
 /* Text elements */
-/* line 40, ../scss/global.scss */
 p {
   margin-bottom: 1.5em;
 }
 
-/* line 43, ../scss/global.scss */
 ul, ol {
   margin: 0 0 1.5em 3em;
 }
 
-/* line 46, ../scss/global.scss */
 ul {
   list-style: disc;
 }
 
-/* line 49, ../scss/global.scss */
 ol {
   list-style: decimal;
 }
 
-/* line 53, ../scss/global.scss */
 li > ul,
 li > ol {
   margin-bottom: 0;
   margin-left: 1.5em;
 }
 
-/* line 57, ../scss/global.scss */
 dt {
   font-weight: bold;
 }
 
-/* line 60, ../scss/global.scss */
 dd {
   margin: 0 1.5em 1.5em;
 }
 
-/* line 63, ../scss/global.scss */
 b, strong {
   font-weight: bold;
 }
 
-/* line 66, ../scss/global.scss */
 dfn, cite, em, i {
   font-style: italic;
 }
 
-/* line 69, ../scss/global.scss */
 blockquote {
   margin: 0 1.5em;
 }
 
-/* line 72, ../scss/global.scss */
 address {
   margin: 0 0 1.5em;
 }
 
-/* line 75, ../scss/global.scss */
 pre {
   background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
@@ -194,24 +167,20 @@ pre {
   padding: 1.6em;
 }
 
-/* line 86, ../scss/global.scss */
 code, kbd, tt, var {
   font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
 
-/* line 89, ../scss/global.scss */
 abbr, acronym {
   border-bottom: 1px dotted #666;
   cursor: help;
 }
 
-/* line 93, ../scss/global.scss */
 mark, ins {
   background: #fff9c0;
   text-decoration: none;
 }
 
-/* line 98, ../scss/global.scss */
 sup,
 sub {
   font-size: 75%;
@@ -221,43 +190,35 @@ sub {
   vertical-align: baseline;
 }
 
-/* line 105, ../scss/global.scss */
 sup {
   bottom: 1ex;
 }
 
-/* line 108, ../scss/global.scss */
 sub {
   top: .5ex;
 }
 
-/* line 111, ../scss/global.scss */
 small {
   font-size: 75%;
 }
 
-/* line 114, ../scss/global.scss */
 big {
   font-size: 125%;
 }
 
-/* line 117, ../scss/global.scss */
 figure {
   margin: 0;
 }
 
-/* line 120, ../scss/global.scss */
 table {
   margin: 0 0 1.5em;
   width: 100%;
 }
 
-/* line 124, ../scss/global.scss */
 th {
   font-weight: bold;
 }
 
-/* line 127, ../scss/global.scss */
 img {
   height: auto;
   /* Make sure images are scaled correctly. */
@@ -266,7 +227,6 @@ img {
 }
 
 /* Form Elements */
-/* line 135, ../scss/global.scss */
 button,
 input,
 select,
@@ -282,7 +242,6 @@ textarea {
   font-weight: 300;
 }
 
-/* line 143, ../scss/global.scss */
 button,
 input {
   line-height: normal;
@@ -290,37 +249,31 @@ input {
 }
 
 /* Alignment */
-/* line 147, ../scss/global.scss */
 .alignleft {
   display: inline;
   float: left;
   margin-right: 1.5em;
 }
 
-/* line 152, ../scss/global.scss */
 .alignright {
   display: inline;
   float: right;
   margin-left: 1.5em;
 }
 
-/* line 157, ../scss/global.scss */
 .aligncenter {
   clear: both;
   display: block;
   margin: 0 auto;
 }
 
-/* line 5, ../scss/main.scss */
 .home .devhub-wrap #content {
   padding: 0;
 }
-/* line 8, ../scss/main.scss */
 .home .devhub-wrap .site-header {
   margin-bottom: 0;
 }
 
-/* line 13, ../scss/main.scss */
 .devhub-wrap {
   padding-bottom: 1.5em;
   /* Text meant only for screen readers */
@@ -352,7 +305,6 @@ input {
    *
    */
 }
-/* line 17, ../scss/main.scss */
 .devhub-wrap *,
 .devhub-wrap *:before,
 .devhub-wrap *:after {
@@ -360,25 +312,20 @@ input {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 22, ../scss/main.scss */
 .devhub-wrap #content, .devhub-wrap #content-area {
   padding: 0 10px;
 }
-/* line 26, ../scss/main.scss */
 .devhub-wrap #content-area,
 .devhub-wrap .inner-wrap {
   margin: 0 auto;
   max-width: 60em;
 }
-/* line 30, ../scss/main.scss */
 .devhub-wrap .page-header {
   margin-top: 1em;
 }
-/* line 34, ../scss/main.scss */
 .devhub-wrap a {
   color: #21759b;
 }
-/* line 43, ../scss/main.scss */
 .devhub-wrap .site-main h2,
 .devhub-wrap .site-main h3,
 .devhub-wrap .site-main h4,
@@ -386,7 +333,6 @@ input {
 .devhub-wrap .site-main h6 {
   color: #1e1e1e;
 }
-/* line 49, ../scss/main.scss */
 .devhub-wrap #headline h2 a {
   color: #555;
   font-weight: 300;
@@ -395,7 +341,6 @@ input {
   text-shadow: #fff 0px 1px 0px;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-/* line 58, ../scss/main.scss */
 .devhub-wrap h1 {
   font-size: 28px;
   font-size: 3rem;
@@ -404,7 +349,6 @@ input {
   font-weight: 300;
   margin-bottom: 1.5rem;
 }
-/* line 66, ../scss/main.scss */
 .devhub-wrap h2 {
   font-size: 22px;
   font-size: 2.2rem;
@@ -412,7 +356,6 @@ input {
   line-height: 2.6rem;
   font-weight: 300;
 }
-/* line 73, ../scss/main.scss */
 .devhub-wrap h3 {
   font-size: 20px;
   font-size: 2rem;
@@ -420,7 +363,6 @@ input {
   line-height: 2.4rem;
   font-weight: 300;
 }
-/* line 80, ../scss/main.scss */
 .devhub-wrap h4 {
   font-size: 18px;
   font-size: 1.8rem;
@@ -429,7 +371,6 @@ input {
   border-bottom: none;
   font-weight: 300;
 }
-/* line 88, ../scss/main.scss */
 .devhub-wrap h4 .dashicons {
   font-size: 22px;
   font-size: 2.2rem;
@@ -440,18 +381,15 @@ input {
   height: 2.2rem;
   width: 2.2rem;
 }
-/* line 100, ../scss/main.scss */
 .devhub-wrap main {
   font-size: 1.5rem;
 }
-/* line 106, ../scss/main.scss */
 .devhub-wrap a.button,
 .devhub-wrap button,
 .devhub-wrap input {
   line-height: normal;
   /* Addresses FF3/4 setting line-height using !important in the UA stylesheet */
 }
-/* line 114, ../scss/main.scss */
 .devhub-wrap a.button,
 .devhub-wrap button,
 .devhub-wrap input[type="button"],
@@ -474,7 +412,6 @@ input {
   -webkit-appearance: button;
   /* Corrects inability to style clickable 'input' types in iOS */
 }
-/* line 129, ../scss/main.scss */
 .devhub-wrap a.button:hover,
 .devhub-wrap button:hover,
 .devhub-wrap input[type="button"]:hover,
@@ -483,7 +420,6 @@ input {
   border-color: #ccc #bbb #aaa #bbb;
   background: #f0f0f0;
 }
-/* line 133, ../scss/main.scss */
 .devhub-wrap a.button:focus, .devhub-wrap a.button:active,
 .devhub-wrap button:focus,
 .devhub-wrap button:active,
@@ -498,7 +434,6 @@ input {
   -webkit-box-shadow: inset 0 1px 0 rgba(120, 200, 230, 0.6), 1px 1px 2px rgba(0, 0, 0, 0.4);
   box-shadow: inset 0 1px 0 rgba(120, 200, 230, 0.6), 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
-/* line 139, ../scss/main.scss */
 .devhub-wrap a.button.shiny-blue,
 .devhub-wrap button.shiny-blue,
 .devhub-wrap input[type="button"].shiny-blue,
@@ -520,7 +455,6 @@ input {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
   padding: 3px 8px;
 }
-/* line 155, ../scss/main.scss */
 .devhub-wrap a.button.shiny-blue:hover,
 .devhub-wrap button.shiny-blue:hover,
 .devhub-wrap input[type="button"].shiny-blue:hover,
@@ -539,7 +473,6 @@ input {
   color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 }
-/* line 172, ../scss/main.scss */
 .devhub-wrap input[type="checkbox"],
 .devhub-wrap input[type="radio"] {
   box-sizing: border-box;
@@ -547,7 +480,6 @@ input {
   padding: 0;
   /* Addresses excess padding in IE8/9 */
 }
-/* line 176, ../scss/main.scss */
 .devhub-wrap input[type="search"] {
   -webkit-appearance: textfield;
   /* Addresses appearance set to searchfield in S5, Chrome */
@@ -556,19 +488,16 @@ input {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
-/* line 182, ../scss/main.scss */
 .devhub-wrap input[type="search"]::-webkit-search-decoration {
   /* Corrects inner padding displayed oddly in S5, Chrome on OSX */
   -webkit-appearance: none;
 }
-/* line 186, ../scss/main.scss */
 .devhub-wrap button::-moz-focus-inner,
 .devhub-wrap input::-moz-focus-inner {
   /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
   border: 0;
   padding: 0;
 }
-/* line 195, ../scss/main.scss */
 .devhub-wrap input[type="text"],
 .devhub-wrap input[type="email"],
 .devhub-wrap input[type="url"],
@@ -580,7 +509,6 @@ input {
   border: 1px solid #ccc;
   border-radius: 3px;
 }
-/* line 200, ../scss/main.scss */
 .devhub-wrap input[type="text"]:focus,
 .devhub-wrap input[type="email"]:focus,
 .devhub-wrap input[type="url"]:focus,
@@ -589,7 +517,6 @@ input {
 .devhub-wrap textarea:focus {
   color: #111;
 }
-/* line 204, ../scss/main.scss */
 .devhub-wrap textarea {
   overflow: auto;
   /* Removes default vertical scrollbar in IE6/7/8/9 */
@@ -598,12 +525,10 @@ input {
   /* Improves readability and alignment in all browsers */
   width: 98%;
 }
-/* line 212, ../scss/main.scss */
 .devhub-wrap .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
   position: absolute !important;
 }
-/* line 219, ../scss/main.scss */
 .devhub-wrap .screen-reader-text:hover,
 .devhub-wrap .screen-reader-text:active,
 .devhub-wrap .screen-reader-text:focus {
@@ -625,7 +550,6 @@ input {
   z-index: 100000;
   /* Above WP toolbar */
 }
-/* line 250, ../scss/main.scss */
 .devhub-wrap .clear:before,
 .devhub-wrap .clear:after,
 .devhub-wrap .entry-content:before,
@@ -641,7 +565,6 @@ input {
   content: '';
   display: table;
 }
-/* line 260, ../scss/main.scss */
 .devhub-wrap .clear:after,
 .devhub-wrap .entry-content:after,
 .devhub-wrap .comment-content:after,
@@ -650,65 +573,53 @@ input {
 .devhub-wrap .site-footer:after {
   clear: both;
 }
-/* line 269, ../scss/main.scss */
 .devhub-wrap .hentry {
   margin: 0 0 1.5em;
 }
-/* line 273, ../scss/main.scss */
 .devhub-wrap .byline,
 .devhub-wrap .updated {
   display: none;
 }
-/* line 277, ../scss/main.scss */
 .devhub-wrap .single .byline,
 .devhub-wrap .group-blog .byline {
   display: inline;
 }
-/* line 282, ../scss/main.scss */
 .devhub-wrap .page-content,
 .devhub-wrap .entry-content,
 .devhub-wrap .entry-summary {
   margin: 1.5em 0 0;
 }
-/* line 285, ../scss/main.scss */
 .devhub-wrap .page-links {
   clear: both;
   margin: 0 0 1.5em;
 }
-/* line 290, ../scss/main.scss */
 .devhub-wrap .callout {
   padding: 15px 40px 15px 40px;
   margin-bottom: 1.5em;
 }
-/* line 294, ../scss/main.scss */
 .devhub-wrap .callout p {
   margin-bottom: 0;
 }
-/* line 299, ../scss/main.scss */
 .devhub-wrap .callout-info {
   background: #c8dffa;
   border: 1px solid #99c4f6;
   border-bottom: 3px solid #82b6f4;
 }
-/* line 305, ../scss/main.scss */
 .devhub-wrap .callout-tip {
   background: #e0f9d0;
   border: 1px solid #c2f3a3;
   border-bottom: 3px solid #a4ed76;
 }
-/* line 311, ../scss/main.scss */
 .devhub-wrap .callout-alert {
   background: #fff9c7;
   border: 1px solid #fff494;
   border-bottom: 3px solid #ffe92e;
 }
-/* line 317, ../scss/main.scss */
 .devhub-wrap .callout-warning {
   background: #ffd8d8;
   border: 1px solid #ffa5a5;
   border-bottom: 3px solid #ffa5a5;
 }
-/* line 328, ../scss/main.scss */
 .devhub-wrap .page-content img.wp-smiley,
 .devhub-wrap .entry-content img.wp-smiley,
 .devhub-wrap .comment-content img.wp-smiley {
@@ -717,89 +628,71 @@ input {
   margin-top: 0;
   padding: 0;
 }
-/* line 334, ../scss/main.scss */
 .devhub-wrap .wp-caption {
   border: 1px solid #ccc;
   margin-bottom: 1.5em;
   max-width: 100%;
 }
-/* line 339, ../scss/main.scss */
 .devhub-wrap .wp-caption img[class*="wp-image-"] {
   display: block;
   margin: 1.2% auto 0;
   max-width: 98%;
 }
-/* line 344, ../scss/main.scss */
 .devhub-wrap .wp-caption-text {
   text-align: center;
 }
-/* line 347, ../scss/main.scss */
 .devhub-wrap .wp-caption .wp-caption-text {
   margin: 0.8075em 0;
 }
-/* line 350, ../scss/main.scss */
 .devhub-wrap .site-main .gallery {
   margin-bottom: 1.5em;
 }
-/* line 355, ../scss/main.scss */
 .devhub-wrap .site-main .gallery a img {
   border: none;
   height: auto;
   max-width: 90%;
 }
-/* line 360, ../scss/main.scss */
 .devhub-wrap .site-main .gallery dd {
   margin: 0;
 }
-/* line 371, ../scss/main.scss */
 .devhub-wrap embed,
 .devhub-wrap iframe,
 .devhub-wrap object {
   max-width: 100%;
 }
-/* line 378, ../scss/main.scss */
 .devhub-wrap .comment-content a {
   word-wrap: break-word;
 }
-/* line 381, ../scss/main.scss */
 .devhub-wrap .bypostauthor {
   background: #eee;
 }
-/* line 390, ../scss/main.scss */
 .devhub-wrap .widget select {
   max-width: 100%;
 }
-/* line 395, ../scss/main.scss */
 .devhub-wrap .widget_search .search-submit {
   display: none;
 }
-/* line 405, ../scss/main.scss */
 .devhub-wrap .infinite-scroll .paging-navigation,
 .devhub-wrap .infinite-scroll.neverending .site-footer {
   /* Theme Footer (when set to scrolling) */
   display: none;
 }
-/* line 410, ../scss/main.scss */
 .devhub-wrap .infinity-end.neverending .site-footer {
   display: block;
 }
-/* line 420, ../scss/main.scss */
 .devhub-wrap .site-header {
   background: none repeat scroll 0 0 #F7F7F7;
   border-bottom: 1px solid #DFDFDF;
   height: 62px;
   margin-bottom: 1em;
 }
-/* line 426, ../scss/main.scss */
 .devhub-wrap .site-branding {
   width: 100%;
 }
-/* line 428, ../scss/main.scss */
 .devhub-wrap .site-branding a {
   text-decoration: none;
   color: #606060;
 }
-/* line 432, ../scss/main.scss */
 .devhub-wrap .site-branding .site-title {
   color: #555555;
   float: left;
@@ -810,20 +703,16 @@ input {
   text-shadow: 0 1px 0 #FFFFFF;
   font-weight: 300;
 }
-/* line 444, ../scss/main.scss */
 .devhub-wrap .breadcrumbs {
   font-size: 13px;
   font-size: 1.3rem;
 }
-/* line 445, ../scss/main.scss */
 .devhub-wrap .breadcrumbs .active {
   font-weight: 600;
 }
-/* line 451, ../scss/main.scss */
 .devhub-wrap .breadcrumb-trail {
   margin-bottom: 1em;
 }
-/* line 455, ../scss/main.scss */
 .devhub-wrap h1.entry-title,
 .devhub-wrap h1.page-title {
   font-weight: 300;
@@ -832,13 +721,11 @@ input {
   color: #606060;
   text-align: center;
 }
-/* line 461, ../scss/main.scss */
 .devhub-wrap h1.entry-title a,
 .devhub-wrap h1.page-title a {
   text-decoration: none;
   color: #606060;
 }
-/* line 468, ../scss/main.scss */
 .devhub-wrap h1.single-entry-title,
 .devhub-wrap h2.entry-title {
   text-align: left;
@@ -847,43 +734,35 @@ input {
   padding: 0 0 24px;
   padding: 0 0 2.4rem;
 }
-/* line 475, ../scss/main.scss */
 .devhub-wrap h1.single-entry-title a,
 .devhub-wrap h2.entry-title a {
   text-decoration: none;
   color: #606060;
 }
-/* line 485, ../scss/main.scss */
 .devhub-wrap .home-landing .section {
   padding: 30px 0%;
   padding: 3rem 0%;
 }
-/* line 489, ../scss/main.scss */
 .devhub-wrap .color.section {
   color: #fff;
 }
-/* line 492, ../scss/main.scss */
 .devhub-wrap .section.blue {
   background: #0F3D57;
   padding: 30px 0;
   padding: 3rem 0;
 }
-/* line 497, ../scss/main.scss */
 .devhub-wrap .section.blue .box {
   text-align: center;
 }
-/* line 500, ../scss/main.scss */
 .devhub-wrap .section.blue .box .widget-description {
   padding: 1em 15%;
 }
-/* line 505, ../scss/main.scss */
 .devhub-wrap .section.blue .widget-title {
   font-size: 62px;
   font-size: 6.2rem;
   line-height: 78px;
   line-height: 7.8rem;
 }
-/* line 511, ../scss/main.scss */
 .devhub-wrap .section.blue .widget-title .dashicons {
   font-size: 84px;
   font-size: 8.4rem;
@@ -896,41 +775,34 @@ input {
   margin-right: 16px;
   margin-right: 1.6rem;
 }
-/* line 527, ../scss/main.scss */
 .devhub-wrap .section.gray {
   background: #797878;
   color: #fff;
 }
-/* line 532, ../scss/main.scss */
 .devhub-wrap .section.gray h2,
 .devhub-wrap .section.gray h3,
 .devhub-wrap .section.gray h4 {
   color: #fff;
 }
-/* line 535, ../scss/main.scss */
 .devhub-wrap .section.gray .inner-wrap {
   max-width: 700px;
   max-width: 70rem;
   margin: 0 auto;
 }
-/* line 540, ../scss/main.scss */
 .devhub-wrap .section.gray .inner-wrap .code-ref-left {
   float: left;
   width: 70%;
   clear: none;
 }
-/* line 545, ../scss/main.scss */
 .devhub-wrap .section.gray .inner-wrap .code-ref-right {
   float: left;
   width: 30%;
   clear: none;
 }
-/* line 551, ../scss/main.scss */
 .devhub-wrap .section.gray .inner-wrap .go {
   float: right;
 }
 @media (max-width: 43em) {
-  /* line 558, ../scss/main.scss */
   .devhub-wrap .section.gray .inner-wrap .code-ref-left,
   .devhub-wrap .section.gray .inner-wrap .code-ref-right {
     float: none;
@@ -939,12 +811,10 @@ input {
     clear: both;
     text-align: center;
   }
-  /* line 566, ../scss/main.scss */
   .devhub-wrap .section.gray .inner-wrap .go {
     float: none;
   }
 }
-/* line 574, ../scss/main.scss */
 .devhub-wrap .section.gray .widget-title {
   font-weight: 300;
   font-size: 40px;
@@ -952,7 +822,6 @@ input {
   line-height: 50px;
   line-height: 5rem;
 }
-/* line 580, ../scss/main.scss */
 .devhub-wrap .section.gray .widget-title .dashicons {
   font-size: 50px;
   font-size: 5rem;
@@ -963,71 +832,58 @@ input {
   height: 5rem;
   width: 5rem;
 }
-/* line 591, ../scss/main.scss */
 .devhub-wrap .section.gray .widget-description {
   margin-left: 65px;
   margin-left: 6.5rem;
 }
-/* line 598, ../scss/main.scss */
 .devhub-wrap .section.light-gray {
   background: #f2f2f2;
   color: #606060;
 }
-/* line 601, ../scss/main.scss */
 .devhub-wrap .section.light-gray .widget-title {
   color: #606060;
   font-weight: 600;
 }
-/* line 605, ../scss/main.scss */
 .devhub-wrap .section.light-gray .widget-title a {
   color: #2D96C2;
 }
-/* line 609, ../scss/main.scss */
 .devhub-wrap .section.light-gray a {
   color: #606060;
   text-decoration: none;
 }
-/* line 615, ../scss/main.scss */
 .devhub-wrap .section .home-primary-content {
   max-width: 600px;
   max-width: 60rem;
   margin: 0 auto;
 }
-/* line 621, ../scss/main.scss */
 .devhub-wrap .box {
   padding: 30px;
   padding: 3rem;
   float: left;
   clear: none;
 }
-/* line 628, ../scss/main.scss */
 .devhub-wrap .section.search-section {
   padding-bottom: 0;
 }
-/* line 632, ../scss/main.scss */
 .devhub-wrap .reference-landing .section.search-section {
   padding-top: 0;
 }
-/* line 636, ../scss/main.scss */
 .devhub-wrap .searchform {
   overflow: hidden;
   height: auto;
   margin-bottom: 1em;
 }
-/* line 640, ../scss/main.scss */
 .devhub-wrap .searchform input[type="text"], .devhub-wrap .searchform input[type="submit"] {
   height: 50px;
   height: 5rem;
   margin-bottom: 1em;
   width: 100%;
 }
-/* line 646, ../scss/main.scss */
 .devhub-wrap .searchform input[type="submit"] {
   width: 85px;
   width: 8.5rem;
   float: left;
 }
-/* line 651, ../scss/main.scss */
 .devhub-wrap .searchform label {
   width: 560px;
   width: 56rem;
@@ -1036,15 +892,12 @@ input {
   display: inline-block;
   float: left;
 }
-/* line 658, ../scss/main.scss */
 .devhub-wrap .searchform label .search-field input[type="text"] {
   width: 100%;
 }
-/* line 662, ../scss/main.scss */
 .devhub-wrap .searchform div {
   overflow: auto;
 }
-/* line 666, ../scss/main.scss */
 .devhub-wrap .searchform .search-post-type label {
   border-right: 1px solid #ccc;
   float: none;
@@ -1054,60 +907,49 @@ input {
   padding-left: 0;
   padding-right: 1.3em;
 }
-/* line 674, ../scss/main.scss */
 .devhub-wrap .searchform .search-post-type label input {
   padding-left: 0.5em;
 }
-/* line 678, ../scss/main.scss */
 .devhub-wrap .searchform .search-post-type label:last-child {
   border-right-width: 0;
 }
-/* line 684, ../scss/main.scss */
 .devhub-wrap .search-results-summary {
   font-style: italic;
   margin-bottom: 1em;
 }
-/* line 689, ../scss/main.scss */
 .devhub-wrap .reference-landing .section, .devhub-wrap .search-section {
   max-width: 700px;
   max-width: 70rem;
   margin: 0 auto;
   padding: 1.5em 0;
 }
-/* line 700, ../scss/main.scss */
 .devhub-wrap .reference-landing .section h2,
 .devhub-wrap .reference-landing .section h3,
 .devhub-wrap .reference-landing .section h4 {
   margin-bottom: 1em;
   color: #404040;
 }
-/* line 707, ../scss/main.scss */
 .devhub-wrap .reference-landing .section h2.widget-title,
 .devhub-wrap .reference-landing .section h3.widget-title,
 .devhub-wrap .reference-landing .section h4.widget-title {
   margin-bottom: 0;
 }
-/* line 710, ../scss/main.scss */
 .devhub-wrap .reference-landing .section.search-guide {
   padding-bottom: 0;
 }
-/* line 713, ../scss/main.scss */
 .devhub-wrap .reference-landing .section.section.topic-guide, .devhub-wrap .reference-landing .section.section.new-in-guide {
   padding-top: 0;
 }
-/* line 720, ../scss/main.scss */
 .devhub-wrap .reference-landing .box,
 .devhub-wrap .sidebar .box {
   padding: 0;
   border: 2px solid #cccccc;
   background-color: #eeeeee;
 }
-/* line 724, ../scss/main.scss */
 .devhub-wrap .reference-landing .box ul,
 .devhub-wrap .sidebar .box ul {
   padding: 2em;
 }
-/* line 729, ../scss/main.scss */
 .devhub-wrap .reference-landing .box .widget-title,
 .devhub-wrap .sidebar .box .widget-title {
   padding: 10px 30px;
@@ -1115,25 +957,21 @@ input {
   font-size: 16px;
   font-size: 1.6rem;
 }
-/* line 735, ../scss/main.scss */
 .devhub-wrap .reference-landing .box .widget-content,
 .devhub-wrap .sidebar .box .widget-content {
   padding: 16px 30px;
   padding: 1.6rem 3rem;
 }
-/* line 741, ../scss/main.scss */
 .devhub-wrap #sidebar {
   border: 1px solid #d0d0d0;
   box-shadow: 0px 0px 5px #d0d0d0;
   background-color: #f0f0f0;
 }
-/* line 745, ../scss/main.scss */
 .devhub-wrap #sidebar > ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
-/* line 750, ../scss/main.scss */
 .devhub-wrap #sidebar > ul li h2.widgettitle {
   background-color: #d0d0d0;
   color: #8a8989;
@@ -1142,14 +980,12 @@ input {
   font-size: 14px;
   letter-spacing: 2px;
 }
-/* line 758, ../scss/main.scss */
 .devhub-wrap #sidebar > ul li ul {
   list-style-type: none;
   margin: 0 10px;
   padding: 15px 0;
   counter-reset: item;
 }
-/* line 764, ../scss/main.scss */
 .devhub-wrap #sidebar > ul li ul li:before {
   content: counter(item);
   counter-increment: item;
@@ -1163,56 +999,45 @@ input {
   font-size: 13px;
   border-radius: 50%;
 }
-/* line 777, ../scss/main.scss */
 .devhub-wrap #sidebar > ul li ul li a {
   font-size: 16px;
   color: #4b4b4b;
   font-weight: bold;
 }
-/* line 782, ../scss/main.scss */
 .devhub-wrap #sidebar > ul li ul li ul {
   list-style-type: none;
   padding: 0;
   margin: 0 0 0 35px;
 }
-/* line 787, ../scss/main.scss */
 .devhub-wrap #sidebar > ul li ul li ul li:before {
   content: none;
 }
-/* line 790, ../scss/main.scss */
 .devhub-wrap #sidebar > ul li ul li ul li a {
   font-weight: normal;
   font-size: 14px;
 }
-/* line 794, ../scss/main.scss */
 .devhub-wrap #sidebar > ul li ul li ul li ul {
   margin-left: 20px;
 }
-/* line 803, ../scss/main.scss */
 .devhub-wrap #sidebar .current-menu-item a {
   font-weight: bold !important;
   color: #246998;
 }
-/* line 809, ../scss/main.scss */
 .devhub-wrap .menu-item-has-children {
   padding-bottom: 15px;
 }
-/* line 813, ../scss/main.scss */
 .devhub-wrap .reference-landing .box ul {
   padding: 0;
   overflow: hidden;
 }
-/* line 818, ../scss/main.scss */
 .devhub-wrap .three-columns .box {
   width: 31%;
   margin: 1.15%;
 }
-/* line 823, ../scss/main.scss */
 .devhub-wrap .two-columns .box {
   width: 48%;
   margin: 1% 1% 1% 0;
 }
-/* line 831, ../scss/main.scss */
 .devhub-wrap #sidebar,
 .devhub-wrap .no-bullets,
 .devhub-wrap .sidebar .widget ul {
@@ -1220,55 +1045,45 @@ input {
   margin: 0;
   padding: 0;
 }
-/* line 836, ../scss/main.scss */
 .devhub-wrap .horizontal-list {
   display: inline;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-/* line 842, ../scss/main.scss */
 .devhub-wrap .horizontal-list li {
   display: inline;
 }
-/* line 845, ../scss/main.scss */
 .devhub-wrap .horizontal-list li a {
   padding: 0px 40px;
   padding: 0 4rem;
   border-left: 1px solid #ccc;
 }
-/* line 850, ../scss/main.scss */
 .devhub-wrap .horizontal-list li:first-child a {
   padding-left: 0;
   border-left: none;
 }
-/* line 855, ../scss/main.scss */
 .devhub-wrap .view-all-new-in {
   font-style: italic;
 }
-/* line 859, ../scss/main.scss */
 .devhub-wrap .box.transparent {
   background: none;
   color: #fff;
 }
-/* line 865, ../scss/main.scss */
 .devhub-wrap .box.transparent h2,
 .devhub-wrap .box.transparent h3,
 .devhub-wrap .box.transparent h4 {
   color: #fff;
 }
-/* line 870, ../scss/main.scss */
 .devhub-wrap .box.gray {
   background: #fff;
   border: 1px solid #d8d8d8;
 }
-/* line 873, ../scss/main.scss */
 .devhub-wrap .box.gray .widget-title {
   color: #666666;
   background: #d8d8d8;
   text-transform: uppercase;
 }
-/* line 881, ../scss/main.scss */
 .devhub-wrap .box .unordered-list {
   list-style-type: none;
   padding: 0;
@@ -1278,142 +1093,114 @@ input {
   line-height: 30px;
   line-height: 3rem;
 }
-/* line 891, ../scss/main.scss */
 .devhub-wrap .widget-description {
   font-style: italic;
   font-weight: 300;
 }
-/* line 895, ../scss/main.scss */
 .devhub-wrap .wp-parser-class, .devhub-wrap .wp-parser-function, .devhub-wrap .wp-parser-hook, .devhub-wrap .wp-parser-method {
   border-bottom: 1px solid #dfdfdf;
 }
-/* line 897, ../scss/main.scss */
 .devhub-wrap .wp-parser-class h1, .devhub-wrap .wp-parser-function h1, .devhub-wrap .wp-parser-hook h1, .devhub-wrap .wp-parser-method h1 {
   margin: 24px 0;
   padding-left: 100px;
 }
-/* line 900, ../scss/main.scss */
 .devhub-wrap .wp-parser-class h1 a, .devhub-wrap .wp-parser-function h1 a, .devhub-wrap .wp-parser-hook h1 a, .devhub-wrap .wp-parser-method h1 a {
   margin-left: -100px;
   color: #24831d;
   font-family: monospace;
   font-size: 20px;
 }
-/* line 905, ../scss/main.scss */
 .devhub-wrap .wp-parser-class h1 a .hook-func, .devhub-wrap .wp-parser-function h1 a .hook-func, .devhub-wrap .wp-parser-hook h1 a .hook-func, .devhub-wrap .wp-parser-method h1 a .hook-func {
   color: #888888;
 }
-/* line 908, ../scss/main.scss */
 .devhub-wrap .wp-parser-class h1 a .arg-type, .devhub-wrap .wp-parser-function h1 a .arg-type, .devhub-wrap .wp-parser-hook h1 a .arg-type, .devhub-wrap .wp-parser-method h1 a .arg-type {
   color: #cd2f23;
 }
-/* line 911, ../scss/main.scss */
 .devhub-wrap .wp-parser-class h1 a .arg-name, .devhub-wrap .wp-parser-function h1 a .arg-name, .devhub-wrap .wp-parser-hook h1 a .arg-name, .devhub-wrap .wp-parser-method h1 a .arg-name {
   color: #0f55c8;
 }
-/* line 914, ../scss/main.scss */
 .devhub-wrap .wp-parser-class h1 a .arg-default, .devhub-wrap .wp-parser-function h1 a .arg-default, .devhub-wrap .wp-parser-hook h1 a .arg-default, .devhub-wrap .wp-parser-method h1 a .arg-default {
   color: #000000;
 }
-/* line 918, ../scss/main.scss */
 .devhub-wrap .wp-parser-class h1 a:hover, .devhub-wrap .wp-parser-function h1 a:hover, .devhub-wrap .wp-parser-hook h1 a:hover, .devhub-wrap .wp-parser-method h1 a:hover {
   border-bottom: 1px dotted #21759b;
 }
-/* line 922, ../scss/main.scss */
 .devhub-wrap .wp-parser-class h2, .devhub-wrap .wp-parser-function h2, .devhub-wrap .wp-parser-hook h2, .devhub-wrap .wp-parser-method h2 {
   font-family: Georgia, Times, serif;
   margin-bottom: .5em;
 }
-/* line 927, ../scss/main.scss */
 .devhub-wrap .wp-parser-class .parameters p, .devhub-wrap .wp-parser-function .parameters p, .devhub-wrap .wp-parser-hook .parameters p, .devhub-wrap .wp-parser-method .parameters p {
   margin-bottom: 0;
 }
-/* line 932, ../scss/main.scss */
 .devhub-wrap .wp-parser-class .parameters dd .desc .type, .devhub-wrap .wp-parser-class .parameters dd .desc .required, .devhub-wrap .wp-parser-function .parameters dd .desc .type, .devhub-wrap .wp-parser-function .parameters dd .desc .required, .devhub-wrap .wp-parser-hook .parameters dd .desc .type, .devhub-wrap .wp-parser-hook .parameters dd .desc .required, .devhub-wrap .wp-parser-method .parameters dd .desc .type, .devhub-wrap .wp-parser-method .parameters dd .desc .required {
   font-style: italic;
 }
-/* line 936, ../scss/main.scss */
 .devhub-wrap .wp-parser-class .parameters dd .default, .devhub-wrap .wp-parser-function .parameters dd .default, .devhub-wrap .wp-parser-hook .parameters dd .default, .devhub-wrap .wp-parser-method .parameters dd .default {
   font-style: italic;
 }
-/* line 940, ../scss/main.scss */
 .devhub-wrap .wp-parser-class .parameters .param-hash, .devhub-wrap .wp-parser-function .parameters .param-hash, .devhub-wrap .wp-parser-hook .parameters .param-hash, .devhub-wrap .wp-parser-method .parameters .param-hash {
   margin-left: 1.2em;
   margin-bottom: 0.5em;
 }
-/* line 945, ../scss/main.scss */
 .devhub-wrap .wp-parser-class .learn-more, .devhub-wrap .wp-parser-function .learn-more, .devhub-wrap .wp-parser-hook .learn-more, .devhub-wrap .wp-parser-method .learn-more {
   background-color: #f1f1f1;
   border: 1px solid #dfdfdf;
   border-radius: 5px;
   padding: 20px;
 }
-/* line 956, ../scss/main.scss */
 .devhub-wrap.archive .wp-parser-class h1 a, .devhub-wrap.archive .wp-parser-function h1 a, .devhub-wrap.archive .wp-parser-hook h1 a, .devhub-wrap.archive .wp-parser-method h1 a, .devhub-wrap.search .wp-parser-class h1 a, .devhub-wrap.search .wp-parser-function h1 a, .devhub-wrap.search .wp-parser-hook h1 a, .devhub-wrap.search .wp-parser-method h1 a {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #21759b;
   font-weight: normal;
 }
-/* line 963, ../scss/main.scss */
 .devhub-wrap.archive .wp-parser-class div.sourcefile, .devhub-wrap.archive .wp-parser-function div.sourcefile, .devhub-wrap.archive .wp-parser-hook div.sourcefile, .devhub-wrap.archive .wp-parser-method div.sourcefile, .devhub-wrap.search .wp-parser-class div.sourcefile, .devhub-wrap.search .wp-parser-function div.sourcefile, .devhub-wrap.search .wp-parser-hook div.sourcefile, .devhub-wrap.search .wp-parser-method div.sourcefile {
   color: #999999;
   font-style: italic;
 }
-/* line 972, ../scss/main.scss */
 .devhub-wrap .single .wp-parser-class, .devhub-wrap .single .wp-parser-function, .devhub-wrap .single .wp-parser-hook, .devhub-wrap .single .wp-parser-method {
   border-bottom-style: none;
 }
-/* line 977, ../scss/main.scss */
 .devhub-wrap .source-content {
   overflow: auto;
 }
-/* line 981, ../scss/main.scss */
 .devhub-wrap .source-code-links {
   margin-left: 2em;
   margin-top: 1em;
 }
-/* line 986, ../scss/main.scss */
 .devhub-wrap .source-code-links span:first-child {
   display: none;
   border-right: 1px solid #999;
   margin-right: 1em;
   padding-right: 1em;
 }
-/* line 993, ../scss/main.scss */
 .devhub-wrap .source-code-container {
   border-right: 1px solid #dfdfdf;
   overflow-x: auto;
   overflow-y: hidden;
 }
-/* line 999, ../scss/main.scss */
 .devhub-wrap .show-complete-source, .devhub-wrap .less-complete-source {
   display: none;
 }
-/* line 1003, ../scss/main.scss */
 .devhub-wrap .loop-pagination {
   text-align: center;
   font-size: 18px;
   margin-bottom: 20px;
 }
-/* line 1011, ../scss/main.scss */
 .devhub-wrap .comment-list,
 .devhub-wrap .comment-list ol {
   list-style: none;
   margin: 0 0 1.5em 0;
   padding: 0;
 }
-/* line 1017, ../scss/main.scss */
 .devhub-wrap .comment-list li {
   padding: 2rem 1.5rem 1rem;
   border: 0 solid #eee;
   border-bottom-width: 1px;
   background: #fff;
 }
-/* line 1023, ../scss/main.scss */
 .devhub-wrap .comment-list li:first-child {
   padding-top: 1rem;
 }
-/* line 1028, ../scss/main.scss */
 .devhub-wrap .comment-list .avatar {
   float: left;
   width: 2.5em;
@@ -1422,23 +1209,19 @@ input {
   padding: 0.125em;
   border: 1px solid #eee;
 }
-/* line 1037, ../scss/main.scss */
 .devhub-wrap .comment-author-attribution {
   font-weight: bold;
 }
-/* line 1041, ../scss/main.scss */
 .devhub-wrap .comment-meta {
   margin: 0 0 1.5em 0;
   font-size: 0.75em;
 }
-/* line 1055, ../scss/main.scss */
 .devhub-wrap .comment-content {
   margin-left: 60px;
   margin-left: 3.75rem;
   margin-left: 0;
   clear: both;
 }
-/* line 1062, ../scss/main.scss */
 .devhub-wrap .comment-content ol {
   list-style: decimal inside;
   margin: 0 0 1.5em 0;
@@ -1446,7 +1229,6 @@ input {
   margin: 0 0 1.5em 1.5em;
   padding: 0;
 }
-/* line 1070, ../scss/main.scss */
 .devhub-wrap .comment-content ul {
   list-style: square inside;
   margin: 0 0 1.5em 0;
@@ -1454,39 +1236,31 @@ input {
   margin: 0 0 1.5em 1.5em;
   padding: 0;
 }
-/* line 1078, ../scss/main.scss */
 .devhub-wrap .comment-content li {
   border: none;
   padding: 0;
 }
-/* line 1086, ../scss/main.scss */
 .devhub-wrap #respond {
   overflow: hidden;
 }
-/* line 1090, ../scss/main.scss */
 .devhub-wrap .comment-list #respond {
   margin: 1.5em 0 0;
 }
-/* line 1098, ../scss/main.scss */
 .devhub-wrap #respond .log-in-out a {
   font-style: italic;
 }
-/* line 1102, ../scss/main.scss */
 .devhub-wrap #reply-title small a {
   font-style: italic;
 }
-/* line 1115, ../scss/main.scss */
 .devhub-wrap #respond #submit {
   float: left;
   margin: 0 0 1.5em;
 }
-/* line 1124, ../scss/main.scss */
 .devhub-wrap #content-area.has-sidebar {
   float: none;
   margin: 0 auto;
   width: 60em;
 }
-/* line 1132, ../scss/main.scss */
 .devhub-wrap .has-sidebar main {
   float: right;
   width: 67%;
@@ -1495,7 +1269,6 @@ input {
   padding: 0 12px;
   padding: 0 1.2rem;
 }
-/* line 1140, ../scss/main.scss */
 .devhub-wrap .has-sidebar .widget-area {
   float: left;
   overflow: hidden;
@@ -1504,24 +1277,19 @@ input {
   margin: 0;
   clear: none;
 }
-/* line 1148, ../scss/main.scss */
 .devhub-wrap .has-sidebar .widget-area .widget {
   width: 100%;
 }
-/* line 1155, ../scss/main.scss */
 .devhub-wrap nav.post-navigation .nav-links a {
   width: 49%;
   display: inline-block;
 }
-/* line 1158, ../scss/main.scss */
 .devhub-wrap nav.post-navigation .nav-links a[rel="prev"] {
   text-align: left;
 }
-/* line 1161, ../scss/main.scss */
 .devhub-wrap nav.post-navigation .nav-links a[rel="next"] {
   text-align: right;
 }
-/* line 1166, ../scss/main.scss */
 .devhub-wrap .table-of-contents {
   float: right;
   width: 200px;
@@ -1531,7 +1299,6 @@ input {
   z-index: 1;
   position: relative;
 }
-/* line 1175, ../scss/main.scss */
 .devhub-wrap .table-of-contents h2 {
   margin: 0;
   padding-bottom: 3px;
@@ -1542,31 +1309,25 @@ input {
   background: #d0d0d0;
   color: #8a8989;
 }
-/* line 1187, ../scss/main.scss */
 .devhub-wrap .table-of-contents ul,
 .devhub-wrap .table-of-contents ol {
   margin: 10px 20px;
 }
-/* line 1192, ../scss/main.scss */
 .devhub-wrap ul.items {
   margin-bottom: 8px !important;
   list-style-type: none !important;
   padding-right: 10px;
 }
-/* line 1197, ../scss/main.scss */
 .devhub-wrap ul.items li {
   padding-bottom: 6px !important;
 }
-/* line 1201, ../scss/main.scss */
 .devhub-wrap ul.items li ul li,
 .devhub-wrap ul.items li ul li ul li {
   padding-bottom: 0 !important;
 }
-/* line 1205, ../scss/main.scss */
 .devhub-wrap ul.items li a {
   color: #555 !important;
 }
-/* line 1211, ../scss/main.scss */
 .devhub-wrap .handbook-name {
   text-align: center;
   margin-bottom: 1em;
@@ -1575,20 +1336,17 @@ input {
   letter-spacing: 2px;
   padding-top: 8px;
 }
-/* line 1219, ../scss/main.scss */
 .devhub-wrap .handbook-name div {
   font-weight: 100;
   margin: 0.5rem 0 0;
   font-size: 36px;
 }
-/* line 1225, ../scss/main.scss */
 .devhub-wrap .handbook-name span {
   display: inline-block;
   position: relative;
   color: #aaa;
   text-transform: uppercase;
 }
-/* line 1232, ../scss/main.scss */
 .devhub-wrap .handbook-name span:before, .devhub-wrap .handbook-name span:after {
   content: "";
   position: absolute;
@@ -1596,60 +1354,49 @@ input {
   top: 49%;
   width: 600px;
 }
-/* line 1240, ../scss/main.scss */
 .devhub-wrap .handbook-name span:before {
   right: 100%;
   margin-right: 10px;
 }
-/* line 1245, ../scss/main.scss */
 .devhub-wrap .handbook-name span:after {
   left: 100%;
   margin-left: 10px;
 }
-/* line 1251, ../scss/main.scss */
 .devhub-wrap .handbook-name span.wpicon div {
   margin: -0.7rem 2rem 0 -1.8rem;
   font-size: 2.5em;
   padding: 0 2rem;
 }
-/* line 1256, ../scss/main.scss */
 .devhub-wrap .handbook-name span.wpicon div:before {
   content: "\f324";
 }
-/* line 1262, ../scss/main.scss */
 .devhub-wrap .handbook-name span.wpicon:before, .devhub-wrap .handbook-name span.wpicon:after {
   border-top-width: 3px;
 }
-/* line 1267, ../scss/main.scss */
 .devhub-wrap .handbook-name span .dashicons {
   font-size: 2.5em;
 }
 
 @media (max-width: 60em) {
-  /* line 1276, ../scss/main.scss */
   .devhub-wrap {
     max-width: 100%;
     width: 100%;
   }
-  /* line 1282, ../scss/main.scss */
   .devhub-wrap #content,
   .devhub-wrap #content-area,
   .devhub-wrap .inner-wrap {
     max-width: 100%;
     padding: 0 13px;
   }
-  /* line 1288, ../scss/main.scss */
   .devhub-wrap #content-area .has-sidebar,
   .devhub-wrap .inner-wrap .has-sidebar {
     width: 100%;
   }
-  /* line 1292, ../scss/main.scss */
   .devhub-wrap .site-branding .site-title {
     padding-left: 0;
   }
 }
 @media (max-width: 43em) {
-  /* line 1302, ../scss/main.scss */
   #content-area.has-sidebar main {
     float: right;
     width: 96%;
@@ -1658,7 +1405,6 @@ input {
     padding: 0 12px;
     padding: 0 1.2rem;
   }
-  /* line 1310, ../scss/main.scss */
   #content-area.has-sidebar .widget-area {
     float: none;
     overflow: hidden;
@@ -1666,12 +1412,10 @@ input {
     margin: 0 auto;
     clear: both;
   }
-  /* line 1317, ../scss/main.scss */
   #content-area.has-sidebar .widget-area .widget {
     width: 100%;
   }
 
-  /* line 1325, ../scss/main.scss */
   .section .box,
   .home-primary-content,
   .reference-landing .section {
@@ -1683,37 +1427,30 @@ input {
     display: block;
   }
 
-  /* line 1334, ../scss/main.scss */
   .reference-landing .section .box,
   .sidebar .box {
     padding: 0;
     margin-bottom: 1.5em;
   }
 
-  /* line 1339, ../scss/main.scss */
   .home-primary-content .entry-content,
   .reference-landing .section {
     text-align: left;
   }
 
-  /* line 1344, ../scss/main.scss */
   .devhub-wrap .horizontal-list li {
     display: block;
   }
-  /* line 1347, ../scss/main.scss */
   .devhub-wrap .horizontal-list li a {
     border-left: none;
   }
-  /* line 1352, ../scss/main.scss */
   .devhub-wrap .horizontal-list li:first-child a {
     padding: 0 40px;
     padding: 0 4rem;
   }
-  /* line 1357, ../scss/main.scss */
   .devhub-wrap .reference-landing .searchform {
     text-alignment: center;
   }
-  /* line 1362, ../scss/main.scss */
   .devhub-wrap .reference-landing .searchform input[type="text"],
   .devhub-wrap .reference-landing .searchform input[type="submit"] {
     width: 100%;
@@ -1722,15 +1459,12 @@ input {
     float: none;
     clear: both;
   }
-  /* line 1371, ../scss/main.scss */
   .devhub-wrap .wp-parser-class h1, .devhub-wrap .wp-parser-function h1, .devhub-wrap .wp-parser-hook h1, .devhub-wrap .wp-parser-method h1 {
     padding-left: 45px;
   }
-  /* line 1373, ../scss/main.scss */
   .devhub-wrap .wp-parser-class h1 a, .devhub-wrap .wp-parser-function h1 a, .devhub-wrap .wp-parser-hook h1 a, .devhub-wrap .wp-parser-method h1 a {
     margin-left: -45px;
   }
-  /* line 1379, ../scss/main.scss */
   .devhub-wrap .two-columns .box {
     width: 99%;
   }
